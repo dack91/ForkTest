@@ -15,9 +15,10 @@ public class Move : MonoBehaviour {
         locX = trans.position.x;
 	}
 	
+    // comment in conflicting line with artemis' change
 	// Update is called once per frame
 	void Update () {
-        locX = Mathf.Sin(Time.time);
+        locX = Mathf.Cos(Time.time * 10);            // change from sin to cos and speed up movement
         trans.position = new Vector3(locX, trans.position.y, trans.position.z);
 	}
 }
