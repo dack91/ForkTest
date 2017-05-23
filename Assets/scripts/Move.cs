@@ -14,7 +14,10 @@ public class Move : MonoBehaviour {
         trans = obj.GetComponent<Transform>();
         locX = trans.position.x;
 	}
-	
+
+	// 3rd comment
+	// 2nd comment
+	// asfkawseifvojwsvi
 	// Update is called once per frame
 	void Update () {
         locX = Mathf.Sin(Time.time);
