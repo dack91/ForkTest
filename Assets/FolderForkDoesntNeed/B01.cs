@@ -11,6 +11,6 @@ public class B01 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		// change made after forked file has deleted folder this script is in
 	}
 }
